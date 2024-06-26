@@ -71,6 +71,12 @@
       "image": "assets/kelly.jpg",
       "productName": "Personagem Kelly",
       "price": "$125.00"
+    },
+    {
+      "id": "13",
+      "image": "assets/chrono.jpg",
+      "productName": "Personagem Chrono",
+      "price": "$ 115.00"
     }
   ]
 }
