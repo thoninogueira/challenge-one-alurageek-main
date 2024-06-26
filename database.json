@@ -1,0 +1,77 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "assets/hayato.jpg",
+      "productName": "Personagem Hayato",
+      "price": "$ 115.00"
+    },
+    {
+      "id": "2",
+      "image": "assets/homero.jpg",
+      "productName": "Personagem Homero",
+      "price": "$ 80.00"
+    },
+    {
+      "id": "3",
+      "image": "assets/tatsuya.jpg",
+      "productName": "Personagem Tatsuya",
+      "price": "$ 95.00"
+    },
+    {
+      "id": "4",
+      "image": "assets/iris.jpg",
+      "productName": "Personagem Iris",
+      "price": "$ 75.00"
+    },
+    {
+      "id": "5",
+      "image": "assets/j-biebs.jpg",
+      "productName": "Personagem J-Biebs",
+      "price": "$ 70.00"
+    },
+    {
+      "id": "6",
+      "image": "assets/luna.jpg",
+      "productName": "Personagem Luna",
+      "price": "$ 100.00"
+    },
+    {
+      "id": "7",
+      "image": "assets/jai.jpg",
+      "productName": "Personagem Jai",
+      "price": "$ 60.00"
+    },
+    {
+      "id": "8",
+      "image": "assets/orion.jpg",
+      "productName": "Personagem Orion",
+      "price": "$ 75.00"
+    },
+    {
+      "id": "9",
+      "image": "assets/play-girl.jpg",
+      "productName": "Kit Play Girl",
+      "price": "$150.00"
+    },
+    {
+      "id": "10",
+      "image": "assets/skin-da-iluminacao.jpg",
+      "productName": "Skin da Iluminação",
+      "price": "$120.00"
+    },
+    {
+      "id": "10",
+      "image": "assets/santino.jpg",
+      "productName": "Personagem Santino",
+      "price": "$110.00"
+    },
+    {
+      "id": "10",
+      "image": "assets/kelly.jpg",
+      "productName": "Personagem Kelly",
+      "price": "$125.00"
+    }
+  ]
+
+}

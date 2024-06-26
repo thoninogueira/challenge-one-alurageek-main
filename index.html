@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Alurageek</title>
+</head>
+<body>
+  <header class="header">
+    <img class="header__img" src="assets/free-fire-apresentacao.gif" alt="freefire.gif">
+    <h1 class="header__titulo">AluraGeek</h1>
+  </header>
+  <main class="flex__box">
+    <section class="product">
+      <h1 class="product__title">Meus Produtos:</h1>
+        <div class="product__shelf">
+          <!-- Os três primeiros produtos são estáticos com o intuito de deixar o layout mais bonito quando o json-server não estiver ativado. Também, não podem ser excluídos -->
+          <div class="product__shelf__item">
+            <div class="product__shelf__item__img">
+              <img src="assets/suzy.jpg" alt="Suzy">
+            </div>
+            <div class="product__shelf__item__info">
+              <p class="product__shelf__item__info__name">
+                Personagem Suzy
+              </p>
+              <p class="product__shelf__item__info__price">
+                $90.00
+            </div>
+            <ion-icon name="trash-bin" class="product__shelf__item__bin" id="trash-bin"></ion-icon><abbr title="Os três primeiros produtos não podem ser excluídos"></abbr>
+          </div>
+
+          <div class="product__shelf__item">
+            <div class="product__shelf__item__img">
+              <img src="assets/Alok.jpg" alt="Alok">
+            </div>
+            <div class="product__shelf__item__info">
+              <p class="product__shelf__item__info__name">
+               Personagem Alok
+              </p>
+              <p class="product__shelf__item__info__price">
+                $80.00
+              </p>
+            </div>
+            <ion-icon name="trash-bin" class="product__shelf__item__bin" id="trash-bin"></ion-icon>
+          </div>
+
+          <div class="product__shelf__item">
+            <div class="product__shelf__item__img">
+              <img src="assets/sonia.jpg" alt="Sonia">
+            </div>
+            <div class="product__shelf__item__info">
+              <p class="product__shelf__item__info__name">
+                Personagem Sonia
+              </p>
+              <p class="product__shelf__item__info__price">
+                $70.00
+              </p>
+            </div>
+            <ion-icon name="trash-bin" class="product__shelf__item__bin"  id="trash-bin"></ion-icon>
+          </div>
+        </div>
+    </section>
+    <section class="product__insertion">
+      <h1 class="product__insertion__title">Adicionar Produtos:</h1>
+      <form class="product__insertion__form">
+        <div class="product__insertion__form__name form__input">
+          <label for="form__name" class="form__label">Nome:</label><br>
+          <input type="text" name="" id="form__name" class="product__insertion__form__input form__input__input" placeholder="Nome...">
+        </div>
+        <div class="product__insertion__form__price form__input">
+          <label for="form__price" class="form__label">Preço:</label><br>
+          <input type="text" name="" id="form__price" class="product__insertion__form__input form__input__input" placeholder="Valor...">
+        </div>
+        <div class="product__insertion__form__img form__input">
+          <label for="form__img" class="form__label">Imagem:z</label><br>
+          <input name="" id="form__img" class="product__insertion__form__input form__input__input" placeholder="Imagem...">
+        </div>
+        <div class="product__insertion__form__buttons">
+          <button type="submit" class="product__insertion__form__button__submit form__buttons">Enviar</button>
+          <button type="reset" class="product__insertion__form__button__reset form__buttons">Limpar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__box__logo">
+      <img class="footer__img" src="assets/free-fire.gif" alt="dado.gif">
+      <h1 class="footer__titulo">AluraGeek</h1>
+    </div>
+    <p class="footer__dev">Desenvolvido por Thoni Nogueira</p>
+    <p class="footer__org">Alura Latam - 2024</p>
+  </footer>
+
+  <script src="./js/showAndDeleteProducts.js" type="module"></script>
+  <script src="./js/createProduct.js" type="module"></script>
+</body>
+</html>
