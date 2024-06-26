@@ -15,7 +15,7 @@ Desafio do Oracle Next Education + Alura: lojinha geek, do lado esquerdo estão 
 ⚠️ Necessário a clonagem do repositório para o acesso das funcionalidades, após abrir no VSCode clique em "go live" no canto direito inferior (para isso necessário a instalação da extensão Live Server no VSCode) para abrir a página no navegador. No terminal, você deve executar `npm i` para adicionar a pasta node_modules que foi ignorada no git commit. Após, executar o comando `npm start` ou `json-server --watch database.json` no terminal para carregar os arquivos dinamicamente, após tudo isso regarregue a página.
 ## Ver demonstração
 [Versel](código vercel aqui)<br>
-[Github Pages](https://thoninogueira.github.io/challenge-one-alurageek/)<br>
+[Github Pages](https://thoninogueira.github.io/challenge-one-alurageek-main/)<br>
 ⚠️ O site vai abrir com os três produtos estáticos, e um alert surgirá informando o erro de carregamento dos produtos dinâmicos em razão da dependência do json-server. Veja o aviso no tópico das funcionalidades.
 ## Tecnologias utilizadas
 * <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="logo HTML">
