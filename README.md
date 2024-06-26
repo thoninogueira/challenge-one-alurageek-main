@@ -23,7 +23,7 @@ Desafio do Oracle Next Education + Alura: lojinha geek, do lado esquerdo estão 
 * <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="logo JavaScript">
 * <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="logo Node.js">
 ## Autor
-| [<img loading="lazy" src="https://github.com/account" width=115><br><sub text-decoration="none">Thoni Nogueira</sub>](https://github.com/thoninogueira) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/154802638?s=400&u=11fcb6503047b8538cf2bd2071b739954f484fe1&v=4" width=115><br><sub text-decoration="none">Thoni Nogueira</sub>](https://github.com/thoninogueira) |
 | :---: |
 
 Fique a votande para contribuir com esse projeto, agradeço!
